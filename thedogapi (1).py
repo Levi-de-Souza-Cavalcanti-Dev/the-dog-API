@@ -10,7 +10,6 @@ def get_random_dog_image():
     else:
         return "Failed to retrieve data"
 
-# Chame a função e exiba a imagem do cachorro
 image_url = get_random_dog_image()
 if "Failed" not in image_url:
     display(Image(url=image_url))
